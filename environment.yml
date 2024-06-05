@@ -1,0 +1,10 @@
+name: PyArrow
+
+channels:
+  - defaults
+  - conda-forge  # Canal adicional para obtener paquetes
+
+dependencies:
+  - python=3.10  # Versión de Python que deseas utilizar
+  - pandas  # Instalar Pandas
+  - pyarrow  # Instalar pyarrow
